@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Main script"""
+"""Main script branch_b"""
 
 def main():
     """Main function"""
