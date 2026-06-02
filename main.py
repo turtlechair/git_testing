@@ -1,8 +1,18 @@
-# Program to add 3 numbers
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+#!/usr/bin/env python3
+"""Main script"""
 
-sum = num1 + num2 + num3
+def main():
+    """Main function"""
+    print("Adding numbers")
+    
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    num3 = float(input("Enter third number: "))
+    num4 = float(input("Enter fourth number: "))
+    
+    total = num1 + num2 + num3 + num4
+    print(f"Sum: {total}")
 
-print(f"The sum of {num1}, {num2}, and {num3} is {sum}!")
+
+if __name__ == "__main__":
+    main()
